@@ -1,0 +1,11 @@
+---
+import ListenMoeClient from '../componenets/ListenMoeClient.svelte';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title={"🎶  LISTEN.moe player"}>
+	<div>
+		<h1>🎶 Listen.moe Svelte Player</h1>
+		<ListenMoeClient client:only="svelte" />
+	</div>
+</Layout>
