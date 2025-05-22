@@ -94,9 +94,9 @@
 	<div class="player bg-zinc-900 p-4 shadow-md shadow-zinc-300 w-80">
 		<img
 			class="w-full block shadow-xl shadow-black"
-			src={track.song.albums.length
+			src={track.song.albums.length === 0
 				? `https://cdn.listen.moe/covers/${track.song.albums[0].image}`
-				: "/cover.png"}
+				: "https://i.postimg.cc/Ss7pF5XZ/cover.png"}
 			alt="album-cover"
 		/>
 		<div class="p-3">
