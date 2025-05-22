@@ -8,7 +8,7 @@
 	let audio;
 
 	/** @type {boolean} **/
-	let isPaused = true;
+	let isPaused = false;
 
 	/** @type {NodeJS.Timeout | undefined } **/
 	let heartbeatInterval;
